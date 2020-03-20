@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>ShoppingCart</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="CommonTypes.fs" />
+      <Compile Include="ShoppingCart.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Destructurama.FSharp" Version="1.1.0" />
+      <PackageReference Include="Equinox" Version="2.0.0" />
+      <PackageReference Include="Equinox.Core" Version="2.0.0" />
+      <PackageReference Include="Equinox.Cosmos" Version="2.0.0" />
+      <PackageReference Include="FsCodec" Version="2.0.1" />
+      <PackageReference Include="FsCodec.NewtonsoftJson" Version="2.0.1" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    </ItemGroup>
+
+</Project>
